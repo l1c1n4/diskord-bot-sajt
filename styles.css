@@ -53,7 +53,7 @@
 	top: calc(50% - 1px);
 	left: 30%;
 	width: 40%;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid rgb(0, 225, 255);
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btn:before{
@@ -221,10 +221,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/wave.jpg') no-repeat top center ;
-  background-size: cover;
+  background: url('slike/slika.jpg') no-repeat top center ;
+  background-size: 1300px 230px;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 .btn {
   border: 2px solid rgb(61, 61, 61);
@@ -242,7 +242,7 @@ header {
   }
   
   .success:hover {
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(82, 82, 82);
   color: rgb(7, 160, 140);
   }
   
@@ -254,8 +254,7 @@ header .profile-image {
   width: 220px;
   height: 200px;
   border-radius: 50%;
-  border: 3px solid rgb(61, 61, 61);
-  transition: all .5s;
+  transition: all .4s;
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
@@ -283,7 +282,7 @@ header .profile-image:hover {
   color:rgb(255, 255, 255)
 }
 .card:hover {
-  border-color: #000000;
+  border-color: #04c4c4;
 }
 
 ul.skills {
