@@ -1,24 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <meta charset="utf-8">
   <title>(ime) Muzicki Bot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"></head>
   <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">(ime bota) muzicki bot</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="iskustva.html">Iskustva</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </div>
-
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="kontakt.html">Kontakt</a></li>      
+  <li><a href="iskustva.html">Iskustva</a></li>
+  <li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</div>
+<div class="content">
     <header>
-      <img src="images/john-6372.jpg" alt="Drawing of Jane Smith" class="profile-image">
+      <img src="slike/pfp.jpg"  class="profile-image">
       <h1 class="tag name">Pozdrav, ja sam (ime bota), itd. itd.</h1>
       <button class="btn success"onclick="window.location.href = 'https://discord.com/oauth2/authorize?client_id=888014470528499713&permissions=70282305&scope=bot';">Dodaj (ime bota) na svoj server.</button>
     </header>
